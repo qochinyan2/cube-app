@@ -1,0 +1,26 @@
+{
+  "name": "cube-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://qochinyan2.github.io/cube-app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run build  && gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.85.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5"
+  }
+}
